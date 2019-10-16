@@ -1,0 +1,37 @@
+.image-upload{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon:hover{
+    cursor: pointer;
+}
+
+.image-container{
+    img{
+        border-radius:20px 20px 20px 20px;
+    }
+
+    img:hover{
+        cursor:pointer;
+    }
+}
+
+.hover_options{
+    background: #dddddd;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px 4px 4px 4px;
+    padding: 10px;
+
+    svg,i{
+        cursor: pointer;
+    }
+
+}

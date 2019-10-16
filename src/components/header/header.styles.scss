@@ -1,0 +1,41 @@
+$color-header: #3c47e8;
+$font-color:#FFF;
+
+.header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color:$color-header;
+
+    .logo-container{
+        height: 100px;
+        width: 75px;
+        padding: 15px;  
+    }
+    
+
+    .options{
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        display: flex;
+
+        .option{
+            padding: 10px 15px;
+            cursor: pointer;
+            color: $font-color;
+
+        }
+
+        a{
+            text-decoration: none;
+            color: $font-color;
+        }
+    }
+}
+
+
+

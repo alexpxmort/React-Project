@@ -1,0 +1,16 @@
+export const AuthActionsTypes = {
+    SET_CURRENT_USER:'SET_CURRENT_USER'
+}
+
+export const    CardActionTypes = {
+    TOOGLE_CART_HIDDEN:'TOOGLE_CART_HIDDEN',
+    ADD_ITEM:'ADD_ITEM',
+    REMOVE_ITEM_TO_CHART:'REMOVE_ITEM_TO_CHART',
+    CLEAR_ITEM_FROM_CART:'CLEAR_ITEM_FROM_CART'
+}
+
+export const CategoryActionTypes = {
+    GET_CATEGORIES: 'GET_CATEGORIES',
+    GET_CATEGORIES_ERR: 'GET_CATEGORIES_ERR',
+
+}

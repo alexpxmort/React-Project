@@ -1,0 +1,125 @@
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+a{
+    color: #337ab7;
+}
+
+
+element.style {
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+@media (max-width: 980px)
+{
+    .lp-logo {
+        text-align: right;
+    }
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.fullwidth-header {
+    padding: 0 25px;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+}
+
+.header-bg-color-class {
+    background-color: #3c47e8;
+}
+.lp-menu-bar{
+    z-index: 10;
+    position: relative;
+    padding: 10px 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+@media (max-width: 991px) and (min-width: 480px){
+     .col-md-2.col-xs-6.lp-logo-container {
+        width: 22%;
+    }
+}
+
+
+.col-md-2.col-xs-6{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (max-width: 1024px) and (min-width: 981px){
+    .lp-color-header-style .header-right-panel.clearfix.col-md-10.col-sm-10.col-xs-12 {
+        width: 78%;
+    }
+}
+
+
+@media (max-width: 1024px) and (min-width: 981px){
+    .header-right-panel.clearfix.col-md-10.col-sm-10.col-xs-12 {
+        padding-top: 0px !important;
+    }
+}
+
+
+@media (max-width: 991px) and (min-width: 980px){
+    .header-right-panel.clearfix.col-md-10.col-sm-10.col-xs-12 {
+        width: 78%;
+    }
+}
+
+
+.header-right-panel.clearfix.col-md-10.col-sm-10.col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 1024px) and (min-width: 981px){
+    
+    .header-right-panel {
+        width: 40%;
+        float: right;
+    }
+}
